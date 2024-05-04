@@ -123,3 +123,7 @@ bool listEmpty()
 }
 
 void traverse()
+{
+	if (listEmpty())
+		cout << "\nList is empty" << endl;
+	else
