@@ -8,3 +8,4 @@ struct Node
 	string name;
 	Node* next;
 	Node* prev;
+};
