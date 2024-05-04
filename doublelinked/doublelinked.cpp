@@ -85,3 +85,10 @@ void deleteNode()
 		cout << "List is empty" << endl;
 		return;
 	}
+	current = START;
+	previous = NULL;
+	while (current != NULL && current->noMhs != rollNo)
+	{
+		previous = current;
+		current = current->next;
+	}
