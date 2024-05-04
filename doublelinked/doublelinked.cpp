@@ -137,3 +137,5 @@ void traverse()
 		}
 	}
 }
+
+void revtraverse()
